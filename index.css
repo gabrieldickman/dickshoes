@@ -1,26 +1,56 @@
-*{
+* {
     margin: 0;
     padding: 0;
+
 }
 
-body{
 
+body {
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
+
 }
 
-header{
+header {
+    background-color: blue;
+    height: 87px;
     display: flex;
-    background-color: #000000;
-    flex-direction: row;
     color: #FFFFFF;
+    align-items: center;
+
+}
+
+h1 {
+    margin-left: 23px;
+    font-size: 30px;
+    font-weight: bold;
+
 }
 
 .search{
-
+    margin-left: 40%;
 }
-.login{
 
+.search input{
+    
+}
+
+.login{
+    
+}
+
+.login img {
+    width: 45px;
+    height: 45px;
+}
+
+.login a{
+    text-decoration: none;
+}
+
+.shop-cart img {
+    width: 45px;
+    height: 45px;
 }
 
